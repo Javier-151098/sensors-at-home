@@ -2,4 +2,6 @@
     <string name="app_name">sweetAtHome</string>
     <string name="todo">TODO</string>
     <string name="pantalla_principal">Pantalla Principal</string>
+    <string name="bienvenido">Bienvenido</string>
+
 </resources>
