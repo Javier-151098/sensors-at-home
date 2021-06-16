@@ -1,8 +1,21 @@
 <resources>
     <string name="app_name">sweetAtHome</string>
-    <string name="todo">TODO</string>
     <string name="pantalla_principal">Pantalla Principal</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="sweet_at_home">Sweet at Home</string>
+    <string name="title_activity_menu_lateral">menu_lateral</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="al_hacer_click_en_crear_cuenta_aceptas_los_terminos_y_condiciones">Al hacer click en Crear cuenta, aceptas los terminos y condiciones</string>
+    <string name="todo">TODO</string>
+    <string name="nombre_completo">Nombre completo</string>
 
 </resources>
