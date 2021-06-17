@@ -45,9 +45,11 @@ Pasos para ejecutar las pruebas requeridas de este repositorio
 
 1.- Verificar si se tiene instalado el JDK de java
 En caso de no contar con este, ir al siguiente link donde se podrá descargar.
+
 https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
 
 2.- Descargar el entorno de desarrollo de Andro idStudio
+
 https://developer.android.com/studio?hl=es
 
 3.- Clonar el repositorio en el equipo a utilizar,
