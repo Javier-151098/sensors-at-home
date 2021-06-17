@@ -2,5 +2,5 @@ Tecnologico
 equipo
 Sensors at Home
 -Alejandra
--Javir
--Daniel
+-Javier
+-Luis Daniel
