@@ -51,7 +51,9 @@ https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
 https://developer.android.com/studio?hl=es
 
 3.- Clonar el repositorio en el equipo a utilizar,
--Abrimos la consola de git bash y ponemos el siguiente comando
+-Abrimos la consola de git bash y ponemos el siguiente comando:
+
+
 git  clone https://github.com/Javier-151098/sensors-at-home.git
 
 4.- Al clonar el repositorio, abrimos la aplicación de Android Studio y abrimos el proyecto, yéndonos a donde fue clonado el repositorio.
