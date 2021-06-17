@@ -1,2 +1,2 @@
 # sensors-at-home
-sensores en casa Habitación 
+sensores en casa abitación 
