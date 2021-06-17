@@ -1,14 +1,32 @@
 # Sensors-at-Home
-#sensores en casa Habitación 
+# sensores en casa Habitación 
+# Instituto Tecnológico Superior de Teposcolula
+# Ingeniería en Sistemas Comunicacionales
+
+
+Realizado por 
+Gloria Alejandra Hernández
+Javier Cruz García
+Luis Daniel Solano Vargaz
+
+
+Realizado para
+La materia de ingeniería de software 
+
+
+Docente
+Ingeniero David Vázquez Ayala
+
 
 Aplicación creada en Android Studio
     
  
-Android Studio 
-            Entorno de desarrollo integrado (IDE) oficial para el desarrollo de apps para Android y está basado en IntelliJ IDEA. Además del potente editor de códigos y las herramientas para desarrolladores de IntelliJ, Android Studio ofrece incluso más funciones que aumentan tu productividad cuando desarrollas apps para Android.
+Android Studio:         Entorno de desarrollo integrado (IDE) oficial para el desarrollo de apps para Android y está basado en IntelliJ IDEA. Además del potente editor de códigos y las herramientas para desarrolladores de IntelliJ, Android Studio ofrece incluso más funciones que aumentan tu productividad cuando desarrollas apps para Android.
 
-Con el lenguaje de programación Java
-Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.
+
+
+Java:
+Lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.
 
 
 Pasos para ejecutar las pruebas requeridas de este repositorio
