@@ -30,6 +30,9 @@ Lenguaje de programación y una plataforma informática comercializada por prime
 
 
 Pasos para ejecutar las pruebas requeridas de este repositorio
+
+
+
 1.- Verificar si se tiene instalado el JDK de java
 En caso de no contar con este, ir al siguiente link donde se podrá descargar.
 https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
