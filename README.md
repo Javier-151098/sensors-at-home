@@ -71,7 +71,3 @@ Las carpetas estas divididas en
 
 Anuncio
 En Fechas posteriores a 16/06/2021 será subido el Apk para ser probada de manera directa en un equipo móvil.
-
-
-
-:)
