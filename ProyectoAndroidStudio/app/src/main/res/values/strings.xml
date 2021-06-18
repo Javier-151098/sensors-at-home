@@ -17,5 +17,14 @@
     <string name="al_hacer_click_en_crear_cuenta_aceptas_los_terminos_y_condiciones">Al hacer click en Crear cuenta, aceptas los terminos y condiciones</string>
     <string name="todo">TODO</string>
     <string name="nombre_completo">Nombre completo</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="n_mero_de_telefono">Número de Telefono</string>
+    <string name="direccion">Direccion</string>
+    <string name="email">Email</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="sensors_at_home">Sensors at Home</string>
+    <string name="olvide_mi_contrase_a">Olvide mi contraseña</string>
 
 </resources>

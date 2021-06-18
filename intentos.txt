@@ -1,0 +1,309 @@
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitXY"
+            android:src="@mipmap/linea1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.087" />
+
+        <TextView
+            android:id="@+id/textPantallaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pantalla_principal"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.339"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="43dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.724"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777"
+            app:srcCompat="@mipmap/outline_notifications_white_18" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="43dp"
+            android:layout_height="33dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageButton5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.74"
+            app:srcCompat="@mipmap/outline_search_white_48" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="43dp"
+            android:layout_height="33dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.855"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777"
+            app:srcCompat="@mipmap/outline_share_white_48" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="43dp"
+            android:layout_height="33dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/textPantallaPrincipal"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777"
+            app:srcCompat="@mipmap/outline_menu_white_48"
+            android:contentDescription="@string/todo" />
+__________________________________________
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:text="@string/al_hacer_click_en_crear_cuenta_aceptas_los_terminos_y_condiciones"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+
+_________________
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="795dp"
+        android:layout_height="1187dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/puerta3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="75dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="right"
+        android:text="@string/sweet_at_home"
+        android:textColor="#002171"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBienvenido"
+        tools:layout_editor_absoluteX="133dp" />
+
+    <TextView
+        android:id="@+id/textViewBienvenido"
+        android:layout_width="128dp"
+        android:layout_height="52dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/bienvenido"
+        android:textColor="#002171"
+
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="291dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="307dp">
+
+        <EditText
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recodarme"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="386dp" />
+-----------------
+
+android">android:autoLink="all"
+
+Fuente: https://www.iteramos.com/pregunta/3724/puedo-subrayar-el-texto-en-un-diseno-androide
+
+Fuente: https://www.iteramos.com/pregunta/3724/puedo-subrayar-el-texto-en-un-diseno-androide
+ <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="795dp"
+        android:layout_height="1187dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@mipmap/puerta3" />
+ <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="75dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/sweet_at_home"
+        android:textColor="#002171"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBienvenido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBienvenido"
+        android:layout_width="128dp"
+        android:layout_height="52dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/bienvenido"
+
+        android:textColor="#002171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="291dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBienvenido" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="368dp">
+
+        <EditText
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recodarme"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Registrar"
+        android:text="Registrar Ahora"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <TextView
+        android:id="@+id/textViewOlvide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Olvide"
+        android:text="Olvide mi contraseña"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="652dp" />
