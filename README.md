@@ -1,5 +1,5 @@
 # Sensors-at-Home
-# sensores en casa Habitación 
+# Sensores en casa Habitación 
 # Instituto Tecnológico Superior de Teposcolula
 # Ingeniería en Sistemas Comunicacionales
 
