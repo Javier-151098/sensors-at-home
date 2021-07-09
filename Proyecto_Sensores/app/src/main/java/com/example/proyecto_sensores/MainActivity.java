@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.proyecto_sensores.ui.home.HomeFragment;
+import com.example.proyecto_sensores.ui.slideshow.SlideshowFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void ventanaPrincipal(View view) {
         Toast.makeText(getApplicationContext(), "Prueba ejemplo", Toast.LENGTH_SHORT).show();
-        Intent menu_principal= new  Intent (this, modificarUsuario.class);
+        Intent menu_principal= new  Intent (this, inicioSecion.class);
         startActivity(menu_principal);
     }
 }
