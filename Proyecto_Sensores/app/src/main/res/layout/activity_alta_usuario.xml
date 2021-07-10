@@ -51,67 +51,66 @@
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextNombre"
         android:layout_width="299dp"
         android:layout_height="47dp"
         android:autofillHints=""
         android:contentDescription="todo"
         android:ems="10"
         android:hint="Nombre(s)"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        android:inputType="text|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextApellido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextApellido"
         android:layout_width="299dp"
         android:layout_height="47dp"
         android:autofillHints=""
         android:contentDescription="todo"
         android:ems="10"
-        android:hint="Apellidos"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        android:hint="Apellido"
+        android:inputType="textPersonName"        app:layout_constraintBottom_toTopOf="@+id/editTextDireccion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="297dp"
-        android:layout_height="44dp"
+        android:id="@+id/editTextDireccion"
+        android:layout_width="299dp"
+        android:layout_height="47dp"
+        android:autofillHints=""
+        android:contentDescription="todo"
         android:ems="10"
         android:hint="Dirección"
-        android:inputType="textPersonName"
-        android:contentDescription="todo"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+
+        app:layout_constraintBottom_toTopOf="@+id/editTextTelefono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextApellido"         />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editTextTelefono"
         android:layout_width="296dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="Número de telefono"
         android:inputType="phone"
         android:contentDescription="todo"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDireccion"
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editTextEmail"
         android:layout_width="293dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -122,7 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTelefono"
         android:autofillHints="" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -134,11 +133,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
         app:passwordToggleEnabled="true">
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editTextPassword1"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -151,7 +150,7 @@
         android:layout_width="291dp"
         android:layout_height="wrap_content"
         android:contentDescription="todo"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxCondiciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,15 +158,16 @@
         app:passwordToggleEnabled="true">
 
         <EditText
+            android:id="@+id/editTextPassword2"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:hint="Confirm Password"
-            android:inputType="textPassword"
-            android:autofillHints="" />
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxCondiciones"
         android:layout_width="290dp"
         android:layout_height="53dp"
         android:text="Al hacer click en crear cuenta aceptas los terminos y condiciones"
@@ -184,21 +184,24 @@
         android:layout_height="wrap_content"
         android:text="Crear_cuenta"
         android:contentDescription="todo"
+        android:onClick="AgregarUsuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxCondiciones" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@mipmap/outline_account2_circle_white_48"
         android:contentDescription="@string/todo" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
