@@ -12,6 +12,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="todo">todo</string>
+
     <string name="title_activity_intento1">intento1</string>
+    <string name="email">Email</string>
+    <string name="escribe_tu_contrase_a_para_enviarle_una_contrase_a_temporal">Escribe tu contraseña para enviarle una contraseña temporal</string>
+    <string name="enviar">Enviar</string>
+
+    <string name="sensors_at_home">Sensors at Home</string>
+
+    <string name="recuperar_contrase_a">Recuperar Contraseña</string>
+    <string name="todo">TODO</string>
 </resources>

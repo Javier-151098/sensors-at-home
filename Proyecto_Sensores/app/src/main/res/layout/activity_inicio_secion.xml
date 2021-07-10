@@ -41,14 +41,14 @@
         android:text="Bienvenido"
 
         android:textColor="#002171"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonNameEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextTextPersonNameEmail"
         android:layout_width="291dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -68,10 +68,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNameEmail"
         app:passwordToggleEnabled="true">
 
         <EditText
+            android:id="@+id/editTextPassword"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -96,6 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:text="Ingresar"
+        android:onClick="ingresarInicioSecion"
         app:layout_constraintBottom_toTopOf="@+id/textViewOlvide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -120,9 +122,9 @@
         android:id="@+id/textViewOlvide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Olvide_mi_contraseña"
+        android:text="Olvide mi contraseña"
         android:textColor="@color/black"
-        android:onClick="olvidar"
+        android:onClick="olvideContra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

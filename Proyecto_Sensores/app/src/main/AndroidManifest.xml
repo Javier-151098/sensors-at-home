@@ -11,15 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Sensores">
-        <activity android:name=".altaUsuario"></activity>
+        <activity android:name=".olvideContrasenia"></activity>
+        <activity android:name=".altaUsuario" />
         <activity
             android:name=".Intento1Activity"
             android:label="@string/title_activity_intento1"
-            android:theme="@style/Theme.Proyecto_Sensores.NoActionBar"></activity>
+            android:theme="@style/Theme.Proyecto_Sensores.NoActionBar" />
         <activity
             android:name=".intento1"
             android:label="@string/title_activity_intento1"
-            android:theme="@style/Theme.Proyecto_Sensores.NoActionBar"></activity>
+            android:theme="@style/Theme.Proyecto_Sensores.NoActionBar" />
         <activity android:name=".modificarUsuario" />
         <activity android:name=".inicioSecion" />
         <activity

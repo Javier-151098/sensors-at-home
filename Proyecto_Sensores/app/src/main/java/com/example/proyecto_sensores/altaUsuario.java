@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class altaUsuario extends AppCompatActivity {
 
-    EditText editTextNombre, editTextApellido, editTextDireccion, editTextTelefono, editTextEmail, editTextPassword1, editTextPassword2;
+    EditText editTextNombreT, editTextApellidoT, editTextDireccionT, editTextTelefonoT, editTextEmailT, editTextPassword1T, editTextPassword2T;
 
     private DatabaseReference baseSensorAtHome;
 
@@ -25,19 +25,31 @@ public class altaUsuario extends AppCompatActivity {
         setContentView(R.layout.activity_alta_usuario);
         baseSensorAtHome = FirebaseDatabase.getInstance().getReference("personas");
 
-        editTextNombre=(EditText)findViewById(R.id.editTextNombre);
-        editTextApellido=(EditText)findViewById(R.id.editTextApellido);
-        editTextDireccion=(EditText)findViewById(R.id.editTextDireccion);
-        editTextTelefono=(EditText)findViewById(R.id.editTextTelefono);
-        editTextEmail=(EditText)findViewById(R.id.editTextEmail);
-        editTextPassword1=(EditText)findViewById(R.id.editTextPassword1);
-        editTextPassword2=(EditText)findViewById(R.id.editTextPassword2);
+        editTextNombreT=(EditText)findViewById(R.id.editTextNombre);
+        editTextApellidoT=(EditText)findViewById(R.id.editTextApellido);
+        editTextDireccionT=(EditText)findViewById(R.id.editTextDireccion);
+        editTextTelefonoT=(EditText)findViewById(R.id.editTextTelefono);
+        editTextEmailT=(EditText)findViewById(R.id.editTextEmail);
+        editTextPassword1T=(EditText)findViewById(R.id.editTextPassword1);
+        editTextPassword2T=(EditText)findViewById(R.id.editTextPassword2);
     }
 
     public void AgregarUsuario(View view) {
-        Toast.makeText(getApplicationContext(), editTextPassword1.getText(), Toast.LENGTH_SHORT).show();
-        personas per=new personas("a", "a", "a", "a", "a", "a", "a");
-        String a="2";
-        baseSensorAtHome.child("Usuarios").child(a).setValue(per);
+
+        personas per=new personas(
+                editTextNombreT.getText().toString(),
+                editTextApellidoT.getText().toString(),
+                editTextDireccionT.getText().toString(),
+                editTextTelefonoT.getText().toString(),
+                editTextEmailT.getText().toString(),
+                editTextPassword1T.getText().toString(),
+                editTextPassword2T.getText().toString());
+        baseSensorAtHome.setValue(per);
+
+        Toast.makeText(getApplicationContext(), "Usuario Agregado", Toast.LENGTH_SHORT).show();
+    }
+
+    public void irInicioSecion(View view) {
+        onBackPressed();
     }
 }

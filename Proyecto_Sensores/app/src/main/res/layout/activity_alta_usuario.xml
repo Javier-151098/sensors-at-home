@@ -26,7 +26,7 @@
         android:layout_height="33dp"
         android:adjustViewBounds="true"
         android:background="@null"
-        android:onClick="irAtras"
+        android:onClick="irInicioSecion"
         android:contentDescription="todo"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
@@ -34,7 +34,8 @@
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/outline_west_white_48pt_3x" />
+        app:srcCompat="@mipmap/outline_west_white_48pt_3x"
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/textView2"
@@ -73,7 +74,8 @@
         android:contentDescription="todo"
         android:ems="10"
         android:hint="Apellido"
-        android:inputType="textPersonName"        app:layout_constraintBottom_toTopOf="@+id/editTextDireccion"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDireccion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +89,6 @@
         android:contentDescription="todo"
         android:ems="10"
         android:hint="Dirección"
-
         app:layout_constraintBottom_toTopOf="@+id/editTextTelefono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

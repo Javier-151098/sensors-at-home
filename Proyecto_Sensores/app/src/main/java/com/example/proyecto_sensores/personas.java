@@ -1,22 +1,25 @@
 package com.example.proyecto_sensores;
 
+import android.text.Editable;
+
 public class personas {
+
     private String nombres;
     private String apellidos;
     private String direccion;
     private String telefono;
     private String email;
     private String password1;
-    private String getPassword2;
+    private String password2;
 
-    public personas(String nombres, String apellidos, String direccion, String telefono, String email, String password1, String getPassword2) {
+    public personas(String nombres, String apellidos, String direccion, String telefono, String email, String password1, String password2) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.direccion = direccion;
         this.telefono = telefono;
         this.email = email;
         this.password1 = password1;
-        this.getPassword2 = getPassword2;
+        this.password2 = password2;
     }
 
     public String getNombres() {
@@ -68,10 +71,10 @@ public class personas {
     }
 
     public String getGetPassword2() {
-        return getPassword2;
+        return password2;
     }
 
-    public void setGetPassword2(String getPassword2) {
-        this.getPassword2 = getPassword2;
+    public void setGetPassword2(String password2) {
+        this.password2 = password2;
     }
 }
